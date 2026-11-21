@@ -1,126 +1,85 @@
-<div align="center">
-  <br />
-    <a href="https://youtu.be/NiwawEe92Co" target="_blank">
-      <img src="public/readme/readme-hero-new.webp" alt="Project Banner">
-    </a>
-  <br />
+# BookWiz
 
-  <div>
-<img src="https://img.shields.io/badge/-Next.js_16-000000?style=for-the-badge&logo=Next.js&logoColor=white" />
-<img src="https://img.shields.io/badge/-ElevenLabs-FFFFFF?style=for-the-badge&logo=ElevenLabs&logoColor=black" />
-<img src="https://img.shields.io/badge/-Vapi-62F6B5?style=for-the-badge&logo=Vapi&logoColor=black" />
-<img src="https://img.shields.io/badge/-Clerk-6C47FF?style=for-the-badge&logo=Clerk&logoColor=white" /><br/>
-<img src="https://img.shields.io/badge/-MongoDB-47A248?style=for-the-badge&logo=MongoDB&logoColor=white" />
-<img src="https://img.shields.io/badge/-Typescript-3178C6?style=for-the-badge&logo=Typescript&logoColor=white" />
-<img src="https://img.shields.io/badge/-Tailwind-06B6D4?style=for-the-badge&logo=Tailwind-CSS&logoColor=white" />
-<img src="https://img.shields.io/badge/-Shadcn/UI-000000?style=for-the-badge&logo=shadcnui&logoColor=white" />
+### Your library. Your AI companion. Your conversations.
 
-  </div>
+BookWiz is an AI-powered book companion that transforms static PDF books into interactive learning experiences. Upload a book, explore its content, ask questions, and have real-time voice conversations with an AI companion that understands what you're reading.
 
-  <h3 align="center">AI Book Companion | Vapi, ElevenLabs</h3>
+Built with Next.js, TypeScript, MongoDB, and modern AI voice technologies, BookWiz brings a more personal and engaging way to read, understand, and explore books.
 
-   <div align="center">
-     Build this project step by step with our detailed tutorial on <a href="https://www.youtube.com/watch?v=XUkNR-JfHwo" target="_blank"><b>JavaScript Mastery</b></a> YouTube. Join the JSM family!
-    </div>
-</div>
+---
 
-## 📋 <a name="table">Table of Contents</a>
+## ✨ Features
 
-1. ✨ [Introduction](#introduction)
-2. ⚙️ [Tech Stack](#tech-stack)
-3. 🔋 [Features](#features)
-4. 🤸 [Quick Start](#quick-start)
-5. 🔗 [Assets](#links)
-6. 🚀 [More](#more)
+- **📚 PDF Upload & Processing** — Upload PDF books and process their content for AI-powered interactions.
+- **🎙️ Voice Conversations** — Have natural, real-time conversations with your books using voice AI.
+- **🤖 AI Book Companion** — Ask questions and explore ideas from your uploaded books.
+- **🗣️ Custom AI Voice Personas** — Choose from different AI voices and preview them using ElevenLabs.
+- **🧠 Intelligent Context Retrieval** — Use embeddings and contextual retrieval to help generate relevant responses.
+- **📝 Smart Summaries & Insights** — Explore key ideas and get summaries of book content.
+- **📄 Conversation Transcripts** — Keep track of conversations and revisit useful discussions.
+- **📖 Personal Library** — Manage and access your uploaded books.
+- **🔐 Secure Authentication** — User authentication and session management powered by Clerk.
+- **⚡ Modern Interface** — A responsive interface built with Next.js, Tailwind CSS, and shadcn/ui.
 
-## 🚨 Tutorial
+---
 
-This repository contains the code corresponding to an in-depth tutorial available on our YouTube channel, <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a>.
+## 🛠️ Tech Stack
 
-If you prefer visual learning, this is the perfect resource for you. Follow our tutorial to learn how to build projects like these step-by-step in a beginner-friendly manner!
+| Technology | Purpose |
+|---|---|
+| Next.js 16 | Full-stack React framework |
+| TypeScript | Type-safe development |
+| Tailwind CSS | Styling and responsive design |
+| shadcn/ui | UI components |
+| Clerk | Authentication and user management |
+| MongoDB | Database and book metadata |
+| Mongoose | MongoDB object modeling |
+| Vercel Blob | PDF and file storage |
+| Vapi | Real-time voice AI conversations |
+| Google Gemini | AI embeddings and contextual processing |
+| ElevenLabs | AI voice synthesis |
 
-<a href="https://youtu.be/NiwawEe92Co" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/1736fca5-a031-4854-8c09-bc110e3bc16d" /></a>
+---
 
-## <a name="introduction">✨ Introduction</a>
+## 🚀 Getting Started
 
-Bookified is an AI-powered platform that lets you have real-time voice conversations with your books. Built with Next.js 16, Vapi, and MongoDB, it transforms PDFs into interactive entities using natural voice synthesis. Choose from custom ElevenLabs personas to chat with your library, request summaries, and view live transcripts—all wrapped in a sleek Shadcn UI with Clerk authentication. 
+Follow these instructions to run BookWiz locally.
 
-If you're getting started and need assistance or face any bugs, join our active Discord community with over **50k+** members. It's a place where people help each other out.
+### Prerequisites
 
-<a href="https://discord.com/invite/n6EdbFJ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" /></a>
+Make sure you have the following installed:
 
-## <a name="tech-stack">⚙️ Tech Stack</a>
-
-- **[Clerk](https://jsm.dev/books-clerk)** is a comprehensive user management and authentication platform. It provides secure, pre-built components for email and social logins, enabling seamless session management and protected routes with minimal configuration.
-
-- **[CodeRabbit](https://jsm.dev/books-coderabbit)** is an AI-powered code review platform that provides contextual, line-by-line feedback on pull requests. It automates the review process by identifying bugs, suggesting optimizations, and ensuring coding standards are met, significantly reducing the manual effort for developers and improving code quality.
-
-- **[ElevenLabs](https://elevenlabs.io/docs)** is an advanced AI audio platform providing lifelike text-to-speech. It powers the voice previews in Bookified, allowing users to hear and select from a variety of natural-sounding AI personas before starting a conversation.
-
-- **[MongoDB](https://www.mongodb.com/docs/)** is a flexible, document-based NoSQL database designed for scalability and developer ease. Combined with Mongoose, it serves as the core storage for user libraries, book metadata, and conversation transcripts.
-
-- **[Next.js](https://nextjs.org/docs)** is a powerful React framework for building full-stack web applications. It handles the core application logic, server-side rendering, and API routes, enabling a fast and responsive interface for the Bookified platform.
-
-- **[Shadcn UI](https://ui.shadcn.com/)** is a collection of re-usable, accessible components built with Tailwind CSS and Radix UI. It allows for the creation of a clean, modular, and professional-grade user interface that is easy to customize and theme.
-
-- **[TypeScript](https://www.typescriptlang.org/)** is a superset of JavaScript that adds static typing, providing better tooling, code quality, and error detection. It ensures the application remains maintainable and robust as the codebase scales.
-
-- **[Vapi](https://jsm.dev/books-vapi)** is a specialized Voice AI platform that enables real-time, low-latency conversational audio. It serves as the primary engine for Bookified, allowing users to have seamless, back-and-forth verbal interactions with their uploaded content.
-
-## <a name="features">🔋 Features</a>
-
-👉 **PDF Upload & Ingestion**: Seamlessly upload PDF books with automated text extraction, intelligent chunking, and high-dimensional embeddings for precise context retrieval.
-
-👉 **Voice-First Conversations**: Engage in natural, real-time voice dialogues with your uploaded books, allowing you to ask questions or explore complex concepts verbally via Vapi.
-
-👉 **AI Voice Personas**: Choose from a variety of distinct AI personalities and hear instant high-fidelity previews powered by ElevenLabs to find the perfect reading companion.
-
-👉 **Smart Summaries & Insights**: Quickly extract the essence of any chapter or request deep-dive summaries, making long-form content more accessible and digestible.
-
-👉 **Session Transcripts**: Keep a complete record of every vocal interaction with auto-generated text transcripts, ensuring you never lose a key insight from your discussions.
-
-👉 **Library Management**: Effortlessly organize and search through your personal uploads or the global collection with a high-performance search interface.
-
-👉 **Auth & Subscription**: Secure user access via email and social login, paired with a robust billing system to manage premium features and platform subscriptions.
-
-And many more, including code architecture and reusability.
-
-## <a name="quick-start">🤸 Quick Start</a>
-
-Follow these steps to set up the project locally on your machine.
-
-**Prerequisites**
-
-Make sure you have the following installed on your machine:
-
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/)
 - [Git](https://git-scm.com/)
-- [Node.js](https://nodejs.org/en)
-- [npm](https://www.npmjs.com/) (Node Package Manager)
 
-**Cloning the Repository**
+You will also need accounts and API credentials for the services used by the application.
+
+### 1. Clone the repository
 
 ```bash
-git clone https://github.com/adrianhajdin/jsm_bookified.git
-cd jsm_bookified
+git clone https://github.com/mohammadsibtainrazza/bookwiz.git
+cd bookwiz
 ```
 
-**Installation**
-
-Install the project dependencies using npm:
+### 2. Install dependencies
 
 ```bash
 npm install
 ```
 
-**Set Up Environment Variables**
+### 3. Configure environment variables
 
-Create a new file named `.env` in the root of your project and add the following content:
+Create a `.env.local` file in the root directory of the project.
+
+Add the following variables:
 
 ```env
-NODE_ENV='development'
-NEXT_PUBLIC_BASE_URL=
+# Application
+NODE_ENV=development
+NEXT_PUBLIC_BASE_URL=http://localhost:3000
 
-# CLERK
+# Clerk Authentication
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
 CLERK_SECRET_KEY=
 NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
@@ -128,48 +87,96 @@ NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
 NEXT_PUBLIC_CLERK_SIGN_IN_FALLBACK_REDIRECT_URL=/
 NEXT_PUBLIC_CLERK_SIGN_UP_FALLBACK_REDIRECT_URL=/
 
-# VERCEL BLOB
+# Vercel Blob Storage
 BLOB_READ_WRITE_TOKEN=
 
-# MONGODB
+# MongoDB
 MONGODB_URI=
 
-# VAPI
+# Vapi Voice AI
 NEXT_PUBLIC_VAPI_API_KEY=
+NEXT_PUBLIC_ASSISTANT_ID=
 VAPI_SERVER_SECRET=
 
-# Google Gemini API for embeddings
+# Google Gemini
 GOOGLE_GEMINI_API_KEY=
 
-# ELEVENLABS
+# ElevenLabs
 ELEVENLABS_API_KEY=
 ```
 
-Replace the placeholder values with your real credentials. You can get these by signing up at: [**Clerk**](https://clerk.com), [**Vercel**](https://vercel.com), [**MongoDB**](https://www.mongodb.com), [**Vapi**](https://vapi.ai), [**Google AI Studio**](https://aistudio.google.com), [**ElevenLabs**](https://elevenlabs.io).
+Replace the empty values with your own credentials.
 
-**Running the Project**
+**Required service configuration:**
+
+- [Clerk](https://clerk.com/) — Create an application and configure authentication.
+- [MongoDB Atlas](https://www.mongodb.com/atlas) — Create a database and obtain your connection string.
+- [Vercel](https://vercel.com/) — Create a Blob store and obtain its read/write token.
+- [Vapi](https://vapi.ai/) — Configure a voice assistant and obtain your API key, assistant ID, and server secret.
+- [Google AI Studio](https://aistudio.google.com/) — Generate a Gemini API key.
+- [ElevenLabs](https://elevenlabs.io/) — Generate an API key for voice synthesis.
+
+Keep your API keys and secrets private. Never commit `.env.local` or expose credentials in public repositories.
+
+### 4. Run the development server
 
 ```bash
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## <a name="links">🔗 Assets</a>
+---
 
-Assets and snippets used in the project can be found in the **[video kit](https://jsmastery.com/video-kit/8127ec28-61db-4295-a85b-c649df6ee408)**.
+## 📁 Project Structure
 
-<a href="https://jsmastery.com/video-kit/8127ec28-61db-4295-a85b-c649df6ee408" target="_blank">
-  <img src="public/readme/readme-videokit.webp" alt="Video Kit Banner">
-</a>
+```text
+bookwiz/
+├── app/              # Application routes and pages
+├── components/       # Reusable UI components
+├── database/         # Database models and connections
+├── hooks/            # Custom React hooks
+├── lib/              # Utilities and service integrations
+├── public/           # Static assets
+├── types.d.ts        # Type definitions
+├── middleware.ts     # Application middleware
+├── package.json
+└── README.md
+```
 
-## <a name="more">🚀 More</a>
+---
 
-**Advance your skills with Next.js Pro Course**
+## 🔑 Environment & Security
 
-Enjoyed creating this project? Dive deeper into our PRO courses for a richer learning adventure. They're packed with
-detailed explanations, cool features, and exercises to boost your skills. Give it a go!
+BookWiz relies on several external services. Make sure the corresponding environment variables are configured before running the application.
 
-<a href="https://jsm.dev/books-jsm" target="_blank">
-  <img src="public/readme/readme-jsmpro.webp" alt="Project Banner">
-</a>
+- Do not commit API keys, tokens, or database credentials.
+- Use restricted API permissions wherever possible.
+- Configure authentication redirect URLs for your local and production domains.
+- Keep your database credentials and storage tokens secure.
+
+---
+
+## 🗺️ Project Vision
+
+Reading should be more than consuming pages.
+
+BookWiz aims to make books interactive by bringing together reading, artificial intelligence, and voice technology. The goal is to help readers explore ideas, ask better questions, and develop a deeper understanding of what they read.
+
+**Read. Ask. Explore. Understand.**
+
+---
+
+## 👨‍💻 Author
+
+**Mohammad Sibtain Raza**
+
+Developer and creator of BookWiz.
+
+- GitHub: [@mohammadsibtainrazza](https://github.com/mohammadsibtainrazza)
+
+---
+
+<p align="center">
+  Built with curiosity and a love for learning.
+</p>
